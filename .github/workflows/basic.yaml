@@ -1,1 +1,13 @@
+name: GHA basic pipelines
 
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  basic:
+    runs-on: ["wsl-ubuntu"]
+    steps:
+      name: Basic GHA pipeline
+      run: echo "My first pipeline"
+    
