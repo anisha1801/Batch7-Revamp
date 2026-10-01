@@ -6,7 +6,7 @@ on:
 
 jobs:
   basic:
-    runs-on: ["wsl-ubuntu"]
+    runs-on: wsl-ubuntu
     steps:
       name: Basic GHA pipeline
       run: echo "My first pipeline"
