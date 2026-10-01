@@ -8,6 +8,6 @@ jobs:
   basic:
     runs-on: wsl-ubuntu
     steps:
-      name: Basic GHA pipeline
-      run: echo "My first pipeline"
+      - name: Basic GHA pipeline
+        run: echo "My first pipeline"
     
